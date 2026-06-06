@@ -188,26 +188,8 @@ p {
   margin: 0 0 16px;
 }
 
-.section-heading-row {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 18px;
-  margin-bottom: 18px;
-}
-
-.section-heading-row h2 {
-  margin: 0;
-}
-
-.text-link {
-  font-weight: 650;
-  white-space: nowrap;
-}
-
 .interest-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 16px;
 }
 
@@ -219,35 +201,33 @@ p {
 }
 
 .interest-grid p,
-.publication-list p,
+.paper-list span,
 .timeline-list em,
 .education-list p {
   color: var(--muted);
 }
 
-.publication-list {
+.paper-list {
   display: grid;
-  gap: 22px;
-  margin: 0;
-  padding-left: 1.35rem;
+  gap: 12px;
+  margin: 16px 0 0;
+  padding-left: 1.25rem;
 }
 
-.publication-list li::marker {
+.paper-list li::marker {
   color: var(--gold);
   font-weight: 750;
 }
 
-.publication-list h3 a {
+.paper-list a {
   color: var(--ink);
+  font-weight: 650;
 }
 
-.publication-list h3 a:hover {
-  color: var(--teal-dark);
-}
-
-.venue {
-  margin-bottom: 0;
-  font-size: 0.95rem;
+.paper-list span {
+  display: block;
+  margin-top: 2px;
+  font-size: 0.94rem;
 }
 
 .timeline-list {
