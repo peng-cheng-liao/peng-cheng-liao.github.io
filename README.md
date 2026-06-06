@@ -20,13 +20,15 @@ python3 -m http.server 8000
 
 Then visit `http://localhost:8000`.
 
+The live site is published at `https://peng-cheng-liao.github.io`.
+
 ## Publish On GitHub Pages
 
 1. Create a new GitHub repository named `<your-github-username>.github.io`.
 2. Upload all files from this `personal-website` folder to that repository.
 3. Open `https://<your-github-username>.github.io` after GitHub finishes publishing.
 
-If your GitHub username is `pengchengliao`, the repository name should be `pengchengliao.github.io`.
+For this account, the repository name is `peng-cheng-liao.github.io`.
 
 ## Edit Content
 
