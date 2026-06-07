@@ -136,17 +136,23 @@ a:hover {
 }
 
 .profile-links a {
-  display: grid;
-  gap: 2px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   overflow-wrap: anywhere;
+  font-weight: 650;
+  text-decoration-thickness: 1px;
 }
 
-.profile-links a span {
-  color: var(--muted);
-  font-size: 0.78rem;
-  font-weight: 760;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
+.profile-links svg {
+  flex: 0 0 auto;
+  width: 1rem;
+  height: 1rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.9;
 }
 
 .content {
