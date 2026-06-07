@@ -136,7 +136,17 @@ a:hover {
 }
 
 .profile-links a {
+  display: grid;
+  gap: 2px;
   overflow-wrap: anywhere;
+}
+
+.profile-links a span {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 760;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .content {
