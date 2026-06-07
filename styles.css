@@ -135,16 +135,52 @@ a:hover {
   font-size: 0.95rem;
 }
 
-.profile-links a {
+.profile-links a,
+.profile-contact summary {
   display: inline-flex;
   align-items: center;
   gap: 8px;
+  color: var(--teal);
+  cursor: pointer;
   overflow-wrap: anywhere;
   font-weight: 650;
   text-decoration-thickness: 1px;
 }
 
-.profile-links svg {
+.profile-links a:hover,
+.profile-contact summary:hover {
+  color: var(--teal-dark);
+}
+
+.profile-contact summary {
+  list-style: none;
+}
+
+.profile-contact summary::-webkit-details-marker {
+  display: none;
+}
+
+.profile-contact summary::marker {
+  content: "";
+}
+
+.profile-contact summary:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 4px;
+}
+
+.profile-contact .profile-contact-detail {
+  display: block;
+  margin-top: 6px;
+  margin-left: calc(1em + 8px);
+}
+
+.profile-contact:not([open]) .profile-contact-detail {
+  display: none;
+}
+
+.profile-links svg,
+.profile-contact svg {
   flex: 0 0 auto;
   width: 1em;
   height: 1em;
