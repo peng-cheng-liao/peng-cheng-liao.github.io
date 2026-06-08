@@ -1,6 +1,6 @@
 # Pengcheng Liao Personal Website
 
-This is a static personal website inspired by Daniel Liang's academic homepage, built with plain HTML and CSS so it can run directly on GitHub Pages.
+This is a static personal website built with plain HTML and CSS so it can run directly on GitHub Pages.
 
 ## Files
 
